@@ -1,0 +1,6 @@
+cat todolist
+echo "Completed Task(s):? "
+read number
+sed -i ${number}d todolist 
+cat todolist
+ 
