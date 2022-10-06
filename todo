@@ -1,0 +1,9 @@
+./tododatechecker
+i=1
+while true
+do 
+echo "Write down your tasks "
+read a
+echo $i $a >> todolist
+i=$((i+1))
+done

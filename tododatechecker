@@ -1,7 +1,8 @@
 a=$(ls -l todolist | awk '{ print $6$7}')
 b=$(date | awk '{ print $2$3}')
 if [ $a == $b ]; then
-echo same
+exit
 else
-echo not same
+rm todolist
+complete
 fi

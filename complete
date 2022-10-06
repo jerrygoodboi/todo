@@ -1,3 +1,4 @@
+./tododatechecker
 cat todolist
 echo "Completed Task(s):? "
 read number
