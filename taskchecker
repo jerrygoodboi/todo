@@ -1,0 +1,7 @@
+~/todo/tododatechecker
+cat ~/todo/todolist
+echo "Completed Task(s):? "
+read number
+sed -i ${number}d ~/todo/todolist 
+cat ~/todo/todolist
+ 
