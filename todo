@@ -1,9 +1,9 @@
-./tododatechecker
+~/todo/tododatechecker
 i=1
 while true
 do 
 echo "Write down your tasks "
 read a
-echo $i $a >> todolist
+echo $i $a >> ~/todo/todolist
 i=$((i+1))
 done

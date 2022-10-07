@@ -1,8 +1,7 @@
-a=$(ls -l todolist | awk '{ print $6$7}')
+a=$(ls -l ~/todo/todolist | awk '{ print $6$7}')
 b=$(date | awk '{ print $2$3}')
 if [ $a == $b ]; then
 exit
 else
-rm todolist
-complete
+rm ~/todo/todolist
 fi
